@@ -1,0 +1,96 @@
+.card:hover {
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+}
+
+.watch-page .watch-icons {
+    position: absolute;
+    bottom: 5px;
+}
+
+.watch-page .watch-icons {
+    cursor: pointer;
+}
+
+.watch-page .watch-icons i {
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.watch-page .watch-icons i:hover {
+    transform: translateY(-5%);
+    -webkit-transform: translateY(-5%);
+    -moz-transform: translateY(-5%);
+    -ms-transform: translateY(-5%);
+    -o-transform: translateY(-5%);
+}
+
+.watch-page #more {
+    display: none;
+}
+
+.watch-page .card-block p {
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.card-inner {
+    display: none;
+}
+
+.public-comment .card .btn {
+    background-color: #921192;
+    border-color: #921192;
+    color: #fff;
+}
+
+.public-comment .card .btn:hover {
+    background-color: #b915b9;
+}
+
+time {
+    left: 24px !important;
+}
+
+.watch-page .fa-play {
+    right: 46% !important;
+}
+
+.dropdown-menu.show {
+    inset: 0 105px auto auto !important;
+}
+
+@media (min-width: 992px) {
+    time {
+        font-size: 13px;
+    }
+
+    .fa-play {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 1062px) {
+    #myBtn {
+        margin-bottom: 60px !important;
+    }
+}
+
+@media (max-width: 570px) {
+    .reply-time {
+        font-size: 10px;
+    }
+}
